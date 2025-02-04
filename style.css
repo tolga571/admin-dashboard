@@ -107,7 +107,6 @@ h5 {
   color: var(--color-success);
 }
 
-
 /* =========== SIDEBAR =========== */
 .sidebar {
   display: flex;
@@ -123,4 +122,18 @@ h5 {
   align-items: center;
   gap: 0.5rem;
 }
-/* https://youtu.be/Q-CAX44u4Ss?t=2106 buradayız */
+
+.sidebar__logo img {
+  width: 2.4rem;
+  background: var(--color-gray-0);
+  padding: 0.5rem;
+  border-radius: var(--radius-2);
+}
+
+.sidebar__logo h3 {
+  font-size: 1.4rem;
+  letter-spacing: -1px;
+  font-weight: 700;
+}
+
+/* https://youtu.be/Q-CAX44u4Ss?t=2208 burdayız */
